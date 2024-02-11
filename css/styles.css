@@ -573,14 +573,16 @@ ul {
   background-color: transparent;
   outline: transparent;
   padding-left: 16px;
-}
 
-.form-email::placeholder {
-  color: #fff;
+  color: #ffffff;
   font-size: 12px;
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.04em;
+}
+
+.form-email::placeholder {
+  color: #ffffff;
 }
 
 .button-footer-submit {
@@ -803,6 +805,10 @@ ul {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.span-check {
+  display: inline-flex;
 }
 
 .link-form {
